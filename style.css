@@ -57,3 +57,22 @@ button {
     font-size: 1rem;
     color: #fff;
 }
+
+/* Services Section */
+
+.services {
+    text-align: center;
+}
+
+.services-container {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.service {
+    width: 300px;
+    border: solid 1px red;
+
+}
