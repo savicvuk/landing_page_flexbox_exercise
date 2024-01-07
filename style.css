@@ -20,6 +20,10 @@ header {
     align-items: center;
 }
 
+.logo {
+    width: 100px;
+}
+
 ul {
     display: flex;
     list-style-type: none;
@@ -133,5 +137,16 @@ button {
     align-items: center;
     gap: 20px;
     border-radius: 5px;
+    color: #fff;
+}
+
+/* Footer Section */
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+    align-items: center;
+    background-color: #324359;
     color: #fff;
 }
