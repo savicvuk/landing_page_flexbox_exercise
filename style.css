@@ -8,10 +8,15 @@ body {
 /* Main Navigation Section */
 
 header {
+    background-color: #324359;
+}
+
+.header-container {
+    width: 1120px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     padding: 10px;
-    background-color: #324359;
     align-items: center;
 }
 
@@ -43,6 +48,10 @@ a {
     width: 400px;
 }
 
+.hero-content h1 {
+    font-size: 2.5rem;
+}
+
 .hero-img {
     width: 350px;
 }
@@ -60,30 +69,50 @@ button {
 
 /* Services Section */
 
-.services {
-    padding: 50px 0;
+.benefits {
+    padding: 50px 0 100px 0;
     text-align: center;
 }
 
-.services h2 {
+.benefits h2 {
     font-size: 2rem;
     font-weight: 700;
     text-transform: uppercase;
     color: #324359;
 }
 
-.services-container {
+.benefits-container {
+    padding-top: 50px;
     display: flex;
-    gap: 16px;
+    gap: 25px;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.service {
+.benefit {
     width: 300px;
-    border: solid 1px red;
 }
 
 .icon {
     width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
+/* Quote Section */
+
+.blockquote {
+    padding: 100px 0;
+    text-align: center;
+    background-image: url("./images/deadlift-background.jpg");
+    background-color: #324359;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+.blockquote h2 {
+    width: 800px;
+    margin: 0 auto;
 }
