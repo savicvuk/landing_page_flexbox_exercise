@@ -116,3 +116,22 @@ button {
     width: 800px;
     margin: 0 auto;
 }
+
+/* CTA Section */
+
+.cta {
+    padding: 100px 0;
+}
+
+.cta-container {
+    background-color: #324359;
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    border-radius: 5px;
+    color: #fff;
+}
